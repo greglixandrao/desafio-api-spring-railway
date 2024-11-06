@@ -1,5 +1,5 @@
-# Laboratório para o desenvolvimento de um sistema bancário
-## Desafio para o bootcamp da DIO com a Claro.
+# Desafio para o bootcamp da DIO com a Claro.
+## Laboratório para o desenvolvimento de um sistema de cadastro de produtos
 
 ## Principais Tecnologias
 - **Java 17**: Utilizei uma versão LTS do Java;
@@ -11,6 +11,7 @@
 ```mermaid
 classDiagram
     class Product {
+        -id: long
         -productName: string
         -price: float
         -stoke: int
@@ -18,6 +19,7 @@ classDiagram
     }
 
     class Category {
+        -id: long
         -name: string
         -description: string
     }
