@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/products")
 @Tag(name = "Product Controller", description = "REST API for manipulate products.")
 public record ProductController(ProductService productService) {
 
